@@ -6,4 +6,4 @@ eleventyNavigation:
 ---
 # About Me
 
-I am a person that writes stuff.
+I am a 7th grader, writing a collection of math problems I have worked on and came up with the solutions/formulas myself. This does not mean the solutions have not been found before. I just have not looked up the problems, and I have fun working them out myself.

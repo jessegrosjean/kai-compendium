@@ -10,7 +10,7 @@ const markdownItFootnote = require('markdown-it-footnote');
 
 const pluginDrafts = require("./eleventy.config.drafts.js");
 const pluginImages = require("./eleventy.config.images.js");
-
+const mathjaxPlugin = require("eleventy-plugin-mathjax");
 
 module.exports = function(eleventyConfig) {
 	// Copy the contents of the `public` folder to the output folder
@@ -29,6 +29,7 @@ module.exports = function(eleventyConfig) {
 	// App plugins
 	eleventyConfig.addPlugin(pluginDrafts);
 	eleventyConfig.addPlugin(pluginImages);
+	eleventyConfig.addPlugin(mathjaxPlugin);
 
 	// Official plugins
 	eleventyConfig.addPlugin(pluginRss);
