@@ -1,8 +1,8 @@
 module.exports = {
-	title: "Math Blog",
+	title: "Kai's Compendium",
 	url: "https://example.com/",
 	language: "en",
-	description: "Math",
+	description: "Random stuff originating from my brain",
 	author: {
 		name: "Your Name Here",
 		email: "youremailaddress@example.com",

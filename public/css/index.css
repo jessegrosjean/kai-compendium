@@ -113,11 +113,22 @@ header:after {
 
 table {
 	margin: 1em 0;
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
 }
 table td,
 table th {
 	padding-right: 1em;
 }
+.table, th, td {
+	border: 1px solid;
+}
+
+td {
+	padding: 1em;
+}
+
 
 pre,
 code {
@@ -176,6 +187,8 @@ header {
 .nav a[href][aria-current="page"] {
 	text-decoration: underline;
 }
+
+/* Posts */
 
 /* Posts list */
 .postlist {

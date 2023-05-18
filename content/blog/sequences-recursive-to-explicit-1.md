@@ -1,9 +1,9 @@
 ---
-title: "Sequences: Recursive to Explicit"
+title: "Sequences: Recursive to Explicit Part 1"
 description: This post talks about converting a simple recursive formulas into an explicit one.
 date: 2023-04-30
 tags:
-  - turning recursive sequences into explicit
+  - sequences
 ---
 There are two types of sequential formulas: recursive and explicit. Recursive formulas describe the step of getting from one term to the next. They use the previous term or terms as variables[^1]. These are more simple than the explicit and are much easier to find. The downside of this type of formula is that if one wants to find the nth term of a sequence, one would have to compute the formula n times[^2], plugging in the previous term(s) in each calculation. A way to avoid this tedious process is to use an explicit formula. Explicit formulas use the term number as the variable, usually expressed as “n”. You can just plug in the term number you want and get the answer.
 
@@ -19,7 +19,7 @@ $$ a_n = r(a_{n-1}) + d $$
 
 When we write out the first few terms with the variables $r$, $d$, and $a$, we get:
 
-$$a, ra + d, r^2a + rd + d, r^3a + r^2d + rd + d ...etc$$
+$a$,\ $ra + d$,\ $r^2a + rd + d$,\ $r^3a + r^2d + rd + d ...etc$
 
 From now on, we will talk about the terms of the sequence and the terms of the terms of the sequence. To make this less confusing, when referring to the terms of the terms the word "term" will be underlined. This would be seen as "<u>term</u>". The terms in the main sequence will be referred to as normal.
 
@@ -27,7 +27,7 @@ Back to the problem, notice how each term has one <u>term</u> that is equal to $
 
 Now notice how all the other <u>terms</u> are divisible by $d$. We can divide out $d$ and multiply it back later. When we do this, we get the resulting sequence:
 
-$$0, 1, r + 1, r^2 + r + 1, r^3 + r^2 + r + 1 ...etc$$
+$$0,\ 1,\ r + 1,\ r^2 + r + 1,\ r^3 + r^2 + r + 1 ...etc$$
 
 We will now look at each term as a sequence unto itself. In this sequence, you divide by $r$ each time. The sequence starts at $r^{n-2}$ and terminates at 1. We want to find the sum of this sequence since each term of the main sequence is the sum of the <u>terms</u> of the sub-sequence. Luckily, there is already a proven formula for the sum of a geometric sequence. This formula is:
 

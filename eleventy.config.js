@@ -29,7 +29,10 @@ module.exports = function(eleventyConfig) {
 	// App plugins
 	eleventyConfig.addPlugin(pluginDrafts);
 	eleventyConfig.addPlugin(pluginImages);
-	eleventyConfig.addPlugin(mathjaxPlugin);
+	eleventyConfig.addPlugin(mathjaxPlugin, {
+		output: "chtml",
+		chtml: {},
+	});
 
 	// Official plugins
 	eleventyConfig.addPlugin(pluginRss);
