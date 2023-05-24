@@ -1,7 +1,7 @@
 ---
 title: "Sequences: Recursive to Explicit Part 2"
 description: This post builds upon the previous formula and adds another variable and constant to the recursive sequence.
-date: 2023-05-30
+date: 2023-05-10
 tags:
   - sequences
 ---
