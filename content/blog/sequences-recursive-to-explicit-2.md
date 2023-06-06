@@ -106,7 +106,7 @@ The first term in each sequence is $r^{n-1-row}$. This is because the first term
 
 $$\frac{(r^{n-1} - 1) + (r^{n-2} - 1) + (r^{n-3} - 1)...ect}{r-1}$$
 
-Since all the sums have the denominator of $r-1$ we can forget about that for now and divide by it later. Now, all that is left is the numerator. Notice how the numerator is made up of $-1$s and $r$ terms. If we group each $-1$ in the together, we get $-n$. Now notice how what we have left is a geometric sequence. If we put this sequence into our known formula, we get:
+Since all the sums have the denominator of $r-1$ we can forget about that for now and divide by it later. Now, all that is left is the numerator. Notice how the numerator is made up of $-1$s and $r$ terms. If we group each $-1$ together, we get the sum $-n$. Now notice how what we have left is a geometric sequence. If we put this sequence into our known formula, we get:
 
 $$\frac{r^{n} - 1}{r-1}$$
 

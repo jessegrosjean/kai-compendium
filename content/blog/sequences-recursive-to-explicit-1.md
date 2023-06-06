@@ -9,7 +9,7 @@ There are two types of sequential formulas: recursive and explicit. Recursive fo
 
 ## A Sequence Simple yet Broad
 
-In early middle school you probably learned about two simple types of sequences: Arithmetic and Geometric. If you don't remember, an arithmetic sequence is when you start at a given value and add a constant to get to the next value. The terms of an arithmetic sequence have a common difference. A geometric sequence is when instead of adding a constant, you multiply by one. geometric sequences have a common ratio. Later in your education, you may have learned about Fibonacci sequences and harmonics, skipping over a simple yet broad type of sequence, a sequence combining both arithmetic and geometric.
+In early middle school you probably learned about two simple types of sequences: Arithmetic and Geometric. If you don't remember, an arithmetic sequence is when you start at a given value and add a constant to get to the next value. The terms of an arithmetic sequence have a common difference. A geometric sequence is when instead of adding a constant, you multiply by one. Geometric sequences have a common ratio. Later in your education, you may have learned about Fibonacci sequences and harmonics, skipping over a simple yet broad type of sequence, a sequence combining both arithmetic and geometric.
 
 In this sequence, to get to the next term you would multiply by a constant (we will call this constant $r$) and then add another constant, which we will call $d$. We of course need to now what value to start with. We will call this value, $a$. This sequence as an equation looks like:
 
@@ -19,7 +19,11 @@ $$ a_n = r(a_{n-1}) + d $$
 
 When we write out the first few terms with the variables $r$, $d$, and $a$, we get:
 
-$a$,\ $ra + d$,\ $r^2a + rd + d$,\ $r^3a + r^2d + rd + d ...etc$
+1. $a$
+2. $ra + d$
+3. $r^2a + rd + d$
+4. $r^3a + r^2d + rd + d$
+5. $...etc$
 
 From now on, we will talk about the terms of the sequence and the terms of the terms of the sequence. To make this less confusing, when referring to the terms of the terms the word "term" will be underlined. This would be seen as "<u>term</u>". The terms in the main sequence will be referred to as normal.
 
@@ -27,7 +31,12 @@ Back to the problem, notice how each term has one <u>term</u> that is equal to $
 
 Now notice how all the other <u>terms</u> are divisible by $d$. We can divide out $d$ and multiply it back later. When we do this, we get the resulting sequence:
 
-$$0,\ 1,\ r + 1,\ r^2 + r + 1,\ r^3 + r^2 + r + 1 ...etc$$
+1. $0$
+2. $1$
+3. $r + 1$
+4. $r^2 + r + 1$
+5. $r^3 + r^2 + r + 1$
+6. $...etc$
 
 We will now look at each term as a sequence unto itself. In this sequence, you divide by $r$ each time. The sequence starts at $r^{n-2}$ and terminates at 1. We want to find the sum of this sequence since each term of the main sequence is the sum of the <u>terms</u> of the sub-sequence. Luckily, there is already a proven formula for the sum of a geometric sequence. This formula is:
 
