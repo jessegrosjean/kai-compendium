@@ -4,10 +4,9 @@ description: A problem about finding a clean method to distribute cake fairly.
 date: 2024-02-14
 tags:
   - Mathcamp
-  - Math
 ---
 ## The Question
-A group of 11 Mathcampers decided to bake a rainbow unicorn sprinkle cake with 10 slices. Unfortunately they cannot split up the slices into smaller pieces, because they do not want to risk upsetting the unicorn. Each Mathcamper wants a slice of the cake (but not more, because Mathcampers aren't greedy). Each Mathcamper helped bake the cake to some extent. The Mathcampers have been assigned fractions x<sub>1</sub>, x<sub>2</sub>,. . ., x<sub>11</sub> representing their share of the credit in baking the cake, where 0 < x<sub>i</sub> < 1/10 for each i, and x<sub>1</sub> + x<sub>2</sub> + . . . + x<sub>11</sub> = 1.
+Eleven Mathcampers decided to bake a rainbow unicorn sprinkle cake with 10 slices. Unfortunately they cannot split up the slices into smaller pieces, because they do not want to risk upsetting the unicorn. Each Mathcamper wants a slice of the cake (but not more, because Mathcampers aren't greedy). Each Mathcamper helped bake the cake to some extent. The Mathcampers have been assigned fractions x<sub>1</sub>, x<sub>2</sub>,. . ., x<sub>11</sub> representing their share of the credit in baking the cake, where 0 < x<sub>i</sub> < 1/10 for each i, and x<sub>1</sub> + x<sub>2</sub> + . . . + x<sub>11</sub> = 1.
 
 a. How can you randomly distribute the slices of cake such that the i<sup>th</sup> Mathcamper has a probability of exactly 10x<sub>i</sub> of getting a slice of cake?
 

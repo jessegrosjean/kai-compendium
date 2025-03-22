@@ -6,7 +6,7 @@ tags:
   - Mathcamp
   - Math
 ---
-Here is a curious fact you may not have known about mathematicians: when asked a yes-or-no question, number theorists will always tell the truth, while analysts will always lie. Be careful: if you ask someone a yes-or-no question, and they cannot answer either "yes" or "no" to it, then the universe explodes in paradox. For example, this happens if you ask an number theorist, "Is your answer to this question 'no'?"
+Remember this curious fact you may not have known about mathematicians: when asked a yes-or-no question, number theorists will always tell the truth, while analysts will always lie. Be careful: if you ask someone a yes-or-no question, and they cannot answer either "yes" or "no" to it, then the universe explodes in paradox. For example, this happens if you ask an number theorist, "Is your answer to this question 'no'?"
 
 a. What yes-or-no question can be asked to both a number theorist and an analyst to cause the universe to explode in both cases?
 

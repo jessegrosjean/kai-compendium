@@ -5,7 +5,7 @@ date: 2023-05-20
 tags:
   - Poetry
 ---
-These are poems written by me slowly over time. The newest one is about a year old. The oldest is about 3 years old. They're not very good.
+Good or not, these are poems written by me slowly over time. The newest one is about a year old. The oldest is about 3 years old.
 
 ## Spilled Secrets
 

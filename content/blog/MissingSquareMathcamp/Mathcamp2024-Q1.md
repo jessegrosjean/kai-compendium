@@ -6,7 +6,7 @@ tags:
   - Mathcamp
   - Math
 ---
-The picture below shows a variant of a famous paradoxical puzzle. On the left, we take two rectangles of area 60, and cut each one into two pieces. On the right, we rearrange the four pieces, and put them together into a single rectangle of area 119. How could this be?
+Near this paragraph, a variant of a famous paradoxical puzzle is shown. On the left, we take two rectangles of area 60, and cut each one into two pieces. On the right, we rearrange the four pieces, and put them together into a single rectangle of area 119. How could this be?
 
 {% image "cut-rearranged-rectangles.jpg", "rectangles cut and pieces rearranged" %}
 

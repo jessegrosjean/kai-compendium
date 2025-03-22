@@ -6,6 +6,14 @@ tags:
   - Mathcamp
   - Math
 ---
+## The Problem
+"Stitching halves" is a form of embroidery which makes images out of diagonal stitches in a square grid. Our images will all be created from a single thread, which alternates traveling in straight lines (called stitches) along the front and the back of the grid:
+
+1. The front of the grid is where the image is formed. Here, each stitch goes from a point (x,y) either to (x+1,y+1) or (x−1,y−1). We say that we stitch a square if a stitch on the front follows its diagonal (from top right to bottom left or from bottom left to top right).
+
+2. The back of the grid is not part of the image. Here, each stitch can follow any straight line — but it must travel a positive distance, because if you end a stitch where it started, it will unravel.
+
+This problem is about minimizing the total length of thread needed to stitch a given pattern.
 
 ## General Rules
 This problem presents a system where there is no simple analogy that can be made to other mathematical systems we know well. We only know the base postulates, but solving these problems with only these postulates is like fumbling around in the dark, hoping to find solutions through trial-and-error. Of course, our human brain would subconsciously find some theorems to help us, but it would be hard to <i>prove</i> that the thread length needed for the method found is the actual minimum. So instead of immediately solving the problems, we should work on finding some helpful theorems. 
