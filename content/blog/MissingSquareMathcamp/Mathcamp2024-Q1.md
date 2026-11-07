@@ -1,6 +1,6 @@
 ---
 title: "1-Missing Square Paradox"
-description: A mathcamp problem about hiding your mistakes
+description: A mathcamp problem about hiding your mistakes. Note":" The date is accurate to when it was written, not when it was posted. I posted this series after the applications were closed, because sharing qualifying quiz solutions is strictly not allowed.
 date: 2024-02-01
 tags:
   - Mathcamp

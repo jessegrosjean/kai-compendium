@@ -5,9 +5,10 @@ date: 2025-01-25
 tags:
 - Math
 - sequences
+- deiteration
 ---
 
-The previous posts[^1] looked at a few examples of converting from a recursive sequence to an explicit one. These were useful for getting a idea of what these conversions were like, but were not useful at all for looking at how iteration[^2] behaves as a whole. Now, two years later, I have the tools to explore this bigger question.
+The previous posts[^1] in this series looked at a few examples of converting from a recursive sequence to an explicit one. These were useful for getting a idea of what these conversions were like, but were not useful at all for looking at how iteration[^2] behaves as a whole. Now, two years later, I have the tools to explore this bigger question.
 
 It turns out that going the other way, explicit to recursive, is actually pretty easy: It has a very nice simple formula. 
 
@@ -29,7 +30,7 @@ The $f(x)$ and $f^{-1}(x)$ cancel out, giving a final equation:
 
 $$g(x) = f(f^{-1}(x)+1)$$
 
-This equation is extremely simple and also powerful. Remember, $g(x)$ is the recursive function for the sequence and $f(x)$ is the explicit function, so this equation expresses the recursive function solely using the explicit function. This is the opposite of iteration, which is going from recursive to explicit. We will call going the other way "deiteration". Lets try out this "deiteration" equation using some examples!
+This equation[^4] is extremely simple and also powerful. Remember, $g(x)$ is the recursive function for the sequence and $f(x)$ is the explicit function, so this equation expresses the recursive function solely using the explicit function. This is the opposite of iteration, which is going from recursive to explicit. We will call going the other way "deiteration". Lets try out this "deiteration" equation using some examples!
 
 ## Examples
 
@@ -47,7 +48,7 @@ simplifying results in the equation
 
 $$g(x) = x+2$$
 
-This is the result we expected. It works![^4]
+This is the result we expected. It works!
 
 ## ...What About Going the Other Way?
 
@@ -57,7 +58,7 @@ If we only know the recursive function, and not the initial value, we don't have
 
 But even if we introduce this new variable (say hi a<sub>0</sub>!) we still run into issues: We can only find discrete values of our explicit function. This is because the explicit function takes an input of the term number, but the term number has to be a positive integer[^6]. For instance, there is no such thing as the 2.73rd number in a sequence. To get around this and make our explicit function continuous, we'ed have to do something like defining an entire initial interval, say I<sub>0</sub>, instead of only an initial value.  
 
-Still, even if we do that it is impossible for our solution to be "easy". This is because it has been proven that for some systems, the most efficient way to find the nth term is to use the recursive function n-times. Although this does not mean there aren't explicit formulas for these sequences, it shows that these formulas would be insanely complicated and computationally ineffective if they do in fact exist.
+Still, even if we do that it is impossible for our solution to be "easy". This is because it has been proven that for some systems, the most efficient way to find the nth term is to use the recursive function n-times. Although this does not mean there aren't explicit formulas for these sequences, it shows that these formulas would be quite complicated and computationally ineffective if they do in fact exist.
 
 ## But the Pigeon Housing Crisis!!
 

@@ -6,7 +6,7 @@ tags:
   - sequences
   - Math
 ---
-Vere are two types of sequential formulas: recursive and explicit. Recursive formulas describe the step of getting from one term to the next. They use the previous term or terms as variables[^1]. These are more simple than the explicit and are much easier to find. The downside of this type of formula is that if one wants to find the nth term of a sequence, one would have to compute the formula n times[^2], plugging in the previous term(s) in each calculation. A way to avoid this tedious process is to use an explicit formula. Explicit formulas use the term number as the variable, usually expressed as “n”. You can just plug in the term number you want and get the answer.
+There are two types of sequential formulas: recursive and explicit. Recursive formulas describe the step of getting from one term to the next. They use the previous term or terms as variables[^1]. These are more simple than the explicit and are much easier to find. The downside of this type of formula is that if one wants to find the nth term of a sequence, one would have to compute the formula n times[^2], plugging in the previous term(s) in each calculation. A way to avoid this tedious process is to use an explicit formula. Explicit formulas use the term number as the variable, usually expressed as “n”. You can just plug in the term number you want and get the answer.
 
 ## A Sequence Simple yet Broad
 
