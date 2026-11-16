@@ -1,6 +1,7 @@
 ---
 title: "Primes USA 2026 Problem 1: Analysis"
 description: 
+draft: true
 date: 2025-11-28
 tags:
   - Math
